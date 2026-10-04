@@ -206,7 +206,7 @@ Doula is an Android Douyin enhancement module for LSPosed / Xposed, with feed fi
 | 目标版本 | 40.6.0，versionCode 400601 |
 | 模块名称与包名 | Doula / `io.github.jhihhe.doula` |
 | 模块作者 | `@JhihHe` |
-| 当前构建 | `40.6.0-api102-preview.3`，适配测试版 |
+| 当前构建 | `40.6.0-api102-preview.4`，适配测试版 |
 
 1. 安装 Doula。在 LSPosed 中启用模块，并将作用域设置为上述抖音包。
 2. 避免同时启用旧内置模块与 Doula，防止重复 Hook；新包名不会覆盖旧 `com.android.admin` 模块。
