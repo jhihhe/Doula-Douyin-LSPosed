@@ -1,5 +1,13 @@
 [
   {
+    "file": "screenshots/update-40.7/11-rainbow-time-place.png",
+    "source": "analysis/rainbow/candidate20-start.png",
+    "title": "半透明控件、彩虹弹幕与发布时间/发布地实景",
+    "module": "1.1.0-rainbow-test.20",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "1adee52c8fd91fdca01ffd43f2afbe5282303d2356b0e017d2c91e6c098f80cd"
+  },
+  {
     "file": "screenshots/update-40.7/01-settings-light.png",
     "source": "analysis/20261015/ui21-home.png",
     "title": "六类设置主页面 · 浅色",
