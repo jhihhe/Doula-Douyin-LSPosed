@@ -6,7 +6,7 @@
 
 ## 半透明控件、彩虹弹幕与发布时间/发布地实景
 
-Doula `1.1.0-rainbow-test.20` · 抖音 `40.7.0 / 400701`
+Doula `1.1.0-dy40.6-40.7-api102-rc.3` · 抖音 `40.7.0 / 400701`
 
 ![半透明控件、彩虹弹幕与发布时间/发布地实景](screenshots/update-40.7/11-rainbow-time-place.png)
 

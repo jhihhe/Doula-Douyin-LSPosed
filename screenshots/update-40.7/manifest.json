@@ -1,11 +1,11 @@
 [
   {
     "file": "screenshots/update-40.7/11-rainbow-time-place.png",
-    "source": "analysis/rainbow/candidate20-start.png",
+    "source": "analysis/20261016/publicity-refresh/rainbow-live-cat.png",
     "title": "半透明控件、彩虹弹幕与发布时间/发布地实景",
-    "module": "1.1.0-rainbow-test.20",
+    "module": "1.1.0-dy40.6-40.7-api102-rc.3",
     "douyin": "40.7.0 / 400701",
-    "sha256": "1adee52c8fd91fdca01ffd43f2afbe5282303d2356b0e017d2c91e6c098f80cd"
+    "sha256": "eea721301d4c490b8aac28a6a02a24032db68326c1485688a2eb4f1b98b94525"
   },
   {
     "file": "screenshots/update-40.7/01-settings-light.png",
