@@ -1,0 +1,64 @@
+name: Bug 反馈
+description: Doula 无法加载、闪退、功能失效或界面问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先复现一次再导出 LSPosed 日志，并记录发生时间。不会导出日志也可以先提交版本和截图。
+        日志及附件公开可见，上传前请移除登录令牌、账号、手机号和私人内容。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 无法加载或没有设置入口
+        - 闪退或卡住
+        - 某功能失效
+        - 界面异常
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 请写具体版本号，不要只写“最新版”。
+      value: |
+        手机型号：
+        Android 与系统版本：
+        LSPosed 分支、版本、API：
+        Doula 版本、包名、下载来源：
+        抖音版本、版本代码：
+        其他作用于抖音的模块：
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与结果
+      value: |
+        复现步骤：
+        预期结果：
+        实际结果：
+        相关设置项及开关状态：
+        问题发生时间：
+    validations:
+      required: true
+  - type: textarea
+    id: isolation
+    attributes:
+      label: 加载状态与排查结果
+      description: 不确定的项可以写“未检查”，不要求清空数据或卸载应用。
+      value: |
+        框架是否激活：
+        Doula 是否启用、作用域是否选择抖音：
+        强制停止并重启抖音后是否仍出现：
+        只启用 Doula 是否仍出现：
+        禁用 Doula 后是否恢复：
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志、截图或录屏
+      description: 将 LSPosed 导出的日志文件拖入或附加到此处。闪退时可补充崩溃日志。不要只截图最后一行错误。
+      placeholder: 附件或日志片段；无法取得日志时请说明情况。

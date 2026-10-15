@@ -1,0 +1,82 @@
+[
+  {
+    "file": "screenshots/update-40.7/01-settings-light.png",
+    "source": "analysis/20261015/ui21-home.png",
+    "title": "六类设置主页面 · 浅色",
+    "module": "1.1.0-native-settings.21",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "efa568e549b8b72d977e6b9e1ca8e05247d03770d69a71baa396f26a6ba0636f"
+  },
+  {
+    "file": "screenshots/update-40.7/02-settings-dark.png",
+    "source": "analysis/20261015/ui23-dark-clear.png",
+    "title": "界面与控件展开 · 深色",
+    "module": "1.1.0-unified-test.23",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "3294b36bd374348b5e17c298c11d9628cbf812068fd86d4d966a595536e078d3"
+  },
+  {
+    "file": "screenshots/update-40.7/03-search.png",
+    "source": "analysis/20261015/ui23-dark-search.png",
+    "title": "设置搜索与清空入口",
+    "module": "1.1.0-unified-test.23",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "c02cd6f0a114c26107140b8edf843d3c5ae0ba211c72add7e00fbe900581b5a2"
+  },
+  {
+    "file": "screenshots/update-40.7/04-hidden-tabs.png",
+    "source": "analysis/20261015/ui23-dark-hidden-top.png",
+    "title": "顶部标签隐藏列表",
+    "module": "1.1.0-unified-test.23",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "c9fe77ff4448aca61df4c9e94504c3bfcb36255f7e401f36478cd59911488a55"
+  },
+  {
+    "file": "screenshots/update-40.7/05-opacity.png",
+    "source": "analysis/20261015/ui23-dark-opacity.png",
+    "title": "播放与暂停六项透明度",
+    "module": "1.1.0-unified-test.23",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "6f013bce1e2bbf41ad52e43015af92a655eeada3a0e90c63ef13ab419855fbf1"
+  },
+  {
+    "file": "screenshots/update-40.7/06-interface-light.png",
+    "source": "analysis/20261015/ui23-light-restored.png",
+    "title": "浅色界面、彩虹弹幕与导航高度入口",
+    "module": "1.1.0-unified-test.23",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "ea9f02d8c2ed65ab228e0fad9b41d752402ce1030a35c96fed7def65c377afcb"
+  },
+  {
+    "file": "screenshots/update-40.7/07-gestures.png",
+    "source": "analysis/rainbow/unified24-night-quadrant.png",
+    "title": "四区域双击与长按",
+    "module": "1.1.0-unified-test.24",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "4427ffd8bc18b624791f916297b19a07e6e3fa5e89ba240401e1f04f2018e147"
+  },
+  {
+    "file": "screenshots/update-40.7/08-video-filter.png",
+    "source": "analysis/rainbow/unified24-night-video-filter.png",
+    "title": "11 类视频过滤",
+    "module": "1.1.0-unified-test.24",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "129a132a9c294034871fbe0e2313c7adf0545079753562ed31b66c2c4d3aeda3"
+  },
+  {
+    "file": "screenshots/update-40.7/09-lowlike-light.png",
+    "source": "analysis/rainbow/unified26-lowlike-light.png",
+    "title": "推荐流最低点赞数 · 浅色",
+    "module": "1.1.0-unified-test.26",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "e3fc8287b1ecde59f7ff9ab8a5987f1fc5ce7de60379e0dcf55fceaeba701bab"
+  },
+  {
+    "file": "screenshots/update-40.7/10-lowlike-dark.png",
+    "source": "analysis/rainbow/unified26-lowlike-night.png",
+    "title": "推荐流最低点赞数 · 深色",
+    "module": "1.1.0-unified-test.26",
+    "douyin": "40.7.0 / 400701",
+    "sha256": "984aa7615929d3567e9bfc33399ab50ba9fbad0a1aca1e7451520075560c4d2f"
+  }
+]

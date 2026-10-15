@@ -1,113 +1,71 @@
-# Doula 1.0.1 修复界面
+# Doula 40.7 新 UI 真机截图
 
-![播放分组内的进度开关](106-settings-night.png)
+2026-10-16 · @Jhih he
 
-![两侧时间与底部导航间距](107-progress-navigation.png)
+以下均为抖音 40.7.0 / Android 17 / ARM64 上的实际模块界面，保留完整截图。不同页面来自不同开发候选，**不是最终发行版全功能通过证明**。选项值为测试时状态，不代表默认值。
 
-![桌面模块介绍页，无设置控件](108-module-night.png)
+## 六类设置主页面 · 浅色
 
+Doula `1.1.0-native-settings.21` · 抖音 `40.7.0 / 400701`
 
+![六类设置主页面 · 浅色](screenshots/update-40.7/01-settings-light.png)
 
+## 界面与控件展开 · 深色
 
+Doula `1.1.0-unified-test.23` · 抖音 `40.7.0 / 400701`
 
-2026-10-06 · 抖音 40.6.0 / LSPosed API 102。以下为此次修复的真机界面，部分使用临时测试配置，测试后恢复。消息测试截图因含历史聊天仅留本机。
+![界面与控件展开 · 深色](screenshots/update-40.7/02-settings-dark.png)
 
-## 浅色手势卡片
+## 设置搜索与清空入口
 
-![浅色手势卡片](101-gesture-day.png)
+Doula `1.1.0-unified-test.23` · 抖音 `40.7.0 / 400701`
 
-## 深色手势卡片
+![设置搜索与清空入口](screenshots/update-40.7/03-search.png)
 
-![深色手势卡片](102-gesture-night.png)
+## 顶部标签隐藏列表
 
-## 中文视频控件选择
+Doula `1.1.0-unified-test.23` · 抖音 `40.7.0 / 400701`
 
-![中文视频控件选择](103-controls-chinese.png)
+![顶部标签隐藏列表](screenshots/update-40.7/04-hidden-tabs.png)
 
-## 首次使用不默认勾选视频控件
+## 播放与暂停六项透明度
 
-![首次使用不默认勾选视频控件](104-controls-default.png)
+Doula `1.1.0-unified-test.23` · 抖音 `40.7.0 / 400701`
 
-## 桌面入口仅展示模块信息
+![播放与暂停六项透明度](screenshots/update-40.7/05-opacity.png)
 
+## 浅色界面、彩虹弹幕与导航高度入口
 
-# Doula 1.0.0 真机截图
+Doula `1.1.0-unified-test.23` · 抖音 `40.7.0 / 400701`
 
-2026-10-05 · OPPO Find X8 Ultra / Android 17 / LSPosed API 102 / 抖音 40.6.0。截图来自手机实拍，未重绘功能界面。部分截图展示临时测试配置，配置已恢复。视频内容属于原创作者，仅用于效果展示，与 Doula 无关联。
+![浅色界面、彩虹弹幕与导航高度入口](screenshots/update-40.7/06-interface-light.png)
 
-## 深色主设置
+## 四区域双击与长按
 
-![深色主设置](01-settings-night.png)
+Doula `1.1.0-unified-test.24` · 抖音 `40.7.0 / 400701`
 
-## 顶部隐藏选项
+![四区域双击与长按](screenshots/update-40.7/07-gestures.png)
 
-![顶部隐藏选项](02-top-menu.png)
+## 11 类视频过滤
 
-## 底部隐藏选项
+Doula `1.1.0-unified-test.24` · 抖音 `40.7.0 / 400701`
 
-![底部隐藏选项](03-bottom-menu.png)
+![11 类视频过滤](screenshots/update-40.7/08-video-filter.png)
 
-## 视频控件隐藏选项
+## 推荐流最低点赞数 · 浅色
 
-![视频控件隐藏选项](04-video-controls.png)
+Doula `1.1.0-unified-test.26` · 抖音 `40.7.0 / 400701`
 
-## 四区域手势设置
+![推荐流最低点赞数 · 浅色](screenshots/update-40.7/09-lowlike-light.png)
 
-![四区域手势设置](05-gesture.png)
+## 推荐流最低点赞数 · 深色
 
-## 系统栏与透明设置
+Doula `1.1.0-unified-test.26` · 抖音 `40.7.0 / 400701`
 
-![系统栏与透明设置](06-settings-middle.png)
+![推荐流最低点赞数 · 深色](screenshots/update-40.7/10-lowlike-dark.png)
 
-## 深色透明度弹窗
+## 历史材料
 
-![深色透明度弹窗](07-opacity-night.png)
+[1.0.x 历史截图](GALLERY-1.0.x.md)仅用于版本对照，不作为40.7新UI展示。
 
-## 沉浸播放示例配置
-
-![沉浸播放示例配置](08-immersive-preset.png)
-
-## 时间与发布地选项
-
-![时间与发布地选项](10-time-place.png)
-
-## 正式版推荐页播放：主要控件隐藏
-
-![正式版推荐页播放：主要控件隐藏](11-immersive-playing.png)
-
-## 正式版推荐页暂停：主要控件恢复
-
-![正式版推荐页暂停：主要控件恢复](12-immersive-paused.png)
-
-## 长按内容的媒体与模块菜单
-
-![长按内容的媒体与模块菜单](13-media-menu.png)
-
-## 视频类型过滤
-
-![视频类型过滤](14-video-filter.png)
-
-## 分享控件选项（深色）
-
-![分享控件选项（深色）](15-share-options.png)
-
-## 分享控件选项（浅色）
-
-![分享控件选项（浅色）](15-share-options-day.png)
-
-## 浅色主设置
-
-![浅色主设置](17-settings-day.png)
-
-## 浅色透明度弹窗
-
-![浅色透明度弹窗](18-opacity-day.png)
-
-## 正式版桌面信息页
-
-![正式版桌面信息页](19-module-app.png)
-
-## 正式版隐藏菜单生效：顶部保留三项，底部无朋友
-
-![正式版隐藏菜单生效：顶部保留三项，底部无朋友](20-menu-hidden.png)
-
+[截图来源及哈希](screenshots/update-40.7/manifest.json) · [验证范围](VALIDATION.md)
