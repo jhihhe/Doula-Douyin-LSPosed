@@ -1,0 +1,22 @@
+{
+  "author": "@Jhih he",
+  "type": "AI-assisted 3D design preview, not shipped UI screenshot",
+  "files": [
+    {
+      "file": "posters/liquid-glass-preview/01-cover.png",
+      "sha256": "2ea515b7f78272e83aa8d6dfb9163072e14a325b69f56132ed6206ffe90f62dd"
+    },
+    {
+      "file": "posters/liquid-glass-preview/02-day-night.png",
+      "sha256": "6c0c5d45bb63674c910872f11259cb91a70074bacb3b2f047584f67a176a5446"
+    },
+    {
+      "file": "posters/liquid-glass-preview/03-controls.png",
+      "sha256": "b7782d2c45eba371946ddefaac68e5291092cfe0f88c7dd6ecfa8de0fdd1a5e0"
+    },
+    {
+      "file": "posters/liquid-glass-preview/04-switch.png",
+      "sha256": "c7c7bd9a98a1478cd350a8cedc2990606bea20a9b6e9021998f3cf956f995f32"
+    }
+  ]
+}
