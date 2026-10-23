@@ -2,7 +2,7 @@
 
 # Doula · 沉浸播放，让画面更出彩
 
-抖音 40.6 / 40.7 · 让画面更沉浸，让弹幕与信息更清楚。
+抖音 40.6 / 40.7 / 40.8 · 让画面更沉浸，让弹幕与信息更清楚。
 
 **全屏控件半透明沉浸播放 · 彩虹弹幕 · 发布时间与发布地**
 
@@ -18,16 +18,15 @@
 
 ## 本轮更新状态
 
-**40.7.0 适配和下列新功能已进入 1.1.0 开发候选，新 UI 已有真机截图。最终统一包的完整双版本回归仍在进行，尚未发布 1.1.0 正式版。公开测试 preview.1 已上线，但不包含本页液态玻璃实验外观。**
+**1.1.1 正式版已发布，适配官方抖音 40.6.0 / 40.7.0 / 40.8.0。** 本次重点修复新版加载、评论表情闪退、消息适配和聊天底栏间距，测试范围见 [验证记录](VALIDATION.md)。
 
 | 版本 | 当前状态 |
 | --- | --- |
-| [1.1.0 公开测试 preview.1](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026101652-1.1.0-dy40.6-40.7-api102-preview.1) | 已公开测试，完整回归继续；不包含新增液态玻璃外观。 |
-| 1.1.0 候选 · 抖音 40.6.0 / 40.7.0 | 本轮功能、修复与新 UI 介绍对象；不同候选的限定验证见记录，不代表最终包全部通过。 |
-| [1.0.2 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026100620-1.0.2-dy40.6.0-api102) | 已公开发行的 40.6.0 历史版本，不包含本页全部 1.1.0 新增内容。 |
-| [1.0.2 测试版 preview.9](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026100621-1.0.2-dy40.6.0-api102-preview.9) | 历史测试通道保留，与同次正式版代码和功能一致，仅版本标识不同。 |
+| [1.1.1 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026102410-1.1.1) | 最新正式版；Android 13+ / ARM64 / API 102。 |
+| [1.1.1-preview.1 测试通道](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026102411-1.1.1-preview.1) | 功能代码与正式版一致，仅版本和通道信息不同。 |
+| [历史版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) | 保留原正式及测试版本。 |
 
-安装包和可用版本以 Releases 为准。宣传页更新不等于新 APK 已发布，请勿把旧包用于验证本轮新增功能。
+**正式版蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/ikdJU4d4lhvg)，密码：`6b9g`。** 解压后安装 APK。LSPosed 搜索目录独立刷新，未刷新时可直接从发行页下载。
 
 ## 下一版液态玻璃实验外观
 
@@ -91,7 +90,7 @@
 5. 菜单勾选的是要隐藏的项目，保存后按提示重启。不要清除抖音数据来解决普通加载问题。
 6. 无入口或不生效时，按 [反馈教程](BUG-REPORT.md) 提交具体版本、步骤与日志。候选桌面缓存维护不能修复框架不支持或作用域错误。
 
-本轮适配路径针对 **40.6.0 / 400601** 与 **40.7.0 / 400701**；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
+本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701** 与 **40.8.0 / 400801**；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
 
 
 ## 截图、验证与反馈
