@@ -8,6 +8,15 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 @Jhih he · Android 13+ · ARM64 · 现代 Xposed API 102
 
+[![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.jhihhe.doula?label=Release&color=E65252)](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jhihhe.doula/total?label=Downloads&color=6C72CB)](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+[![Android](https://img.shields.io/badge/Android-13%2B-3DDC84?logo=android&logoColor=white)](#安装与使用)
+[![Architecture](https://img.shields.io/badge/架构-ARM64-4682B4)](#安装与使用)
+[![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
+[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2040.9-FF4757)](VALIDATION.md)
+[![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)
+[![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)
+
 [官方发行与下载](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) · [完整功能](FEATURES.md) · [更新日志](CHANGELOG.md) · [真实截图](GALLERY.md) · [反馈教程](BUG-REPORT.md)
 
 </div>
