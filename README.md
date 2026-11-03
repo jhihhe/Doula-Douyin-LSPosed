@@ -1,3 +1,13 @@
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="Doula — Playback, filtering and personal controls" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-fb7185?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
 <div align="center">
 
 # Doula · 沉浸播放，让画面更出彩
@@ -28,6 +38,30 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [1.1.3 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026103140-1.1.3) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
 蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)，密码：`7fwn`。解压 ZIP 后安装其中的 APK；若 LSPosed 目录尚未刷新，可先使用发行页。
+
+<!-- readme-visuals:overview:start -->
+
+## 项目速览
+
+<table>
+<tr>
+<td width="33%"><strong>沉浸播放</strong><br><br>分别调整顶底菜单与视频控件透明度。</td>
+<td width="33%"><strong>内容与操作</strong><br><br>内容过滤、四区域手势及媒体工具。</td>
+<td width="33%"><strong>版本与验证</strong><br><br>适配范围与实测边界以 VALIDATION.md 为准。</td>
+</tr>
+</table>
+
+### 流程概览
+
+```mermaid
+flowchart LR
+    S0["核对 Android 与抖音版本"] --> S1
+    S1["安装对应模块"] --> S2
+    S2["启用作用域并重启抖音"] --> S3
+    S3["按需配置并核对效果"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## 重点体验：画面更沉浸，信息更清楚
 
