@@ -37,7 +37,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 [1.1.4 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-1.1.4 APK 和 ZIP 可从发行页下载；若 LSPosed 目录尚未刷新，可先使用发行页。1.1.3 的历史蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)，密码：`7fwn`。
+1.1.4 蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/icUpK4fip9vi)，密码：`ds6m`。解压后安装 APK；若 LSPosed 目录尚未刷新，也可使用发行页。
 
 <!-- readme-visuals:overview:start -->
 
