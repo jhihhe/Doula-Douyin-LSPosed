@@ -33,11 +33,11 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-**1.1.3 正式版：下载视频时以顶部提示显示状态，减少对画面的遮挡。** 本版针对抖音 40.9.0（400901）适配；其他版本和功能的验证范围请看 [验证记录](VALIDATION.md)。
+**1.1.4 正式版：适配抖音 41.0.0，调整界面配色和个人主页底栏，加入恢复默认设置及 Telegram 群组入口。** 已在一台设备上验证部分功能；旧版本、其他机型和部分功能组合仍待回归。视频下载的历史证书错误场景尚未确认修复。
 
-[1.1.3 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026103140-1.1.3) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+[1.1.4 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)，密码：`7fwn`。解压 ZIP 后安装其中的 APK；若 LSPosed 目录尚未刷新，可先使用发行页。
+1.1.4 APK 和 ZIP 可从发行页下载；若 LSPosed 目录尚未刷新，可先使用发行页。1.1.3 的历史蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)，密码：`7fwn`。
 
 <!-- readme-visuals:overview:start -->
 
@@ -119,7 +119,7 @@ flowchart LR
 5. 菜单勾选的是要隐藏的项目，保存后按提示重启。不要清除抖音数据来解决普通加载问题。
 6. 无入口或不生效时，按 [反馈教程](BUG-REPORT.md) 提交具体版本、步骤与日志。桌面缓存维护不能修复框架不支持或作用域错误。
 
-本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
+本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；1.1.4 新增 41.0.0 适配，部分功能已实测，其余功能及旧版回归仍在继续；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
 
 
 ## 截图、验证与反馈
