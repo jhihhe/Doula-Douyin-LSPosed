@@ -10,9 +10,6 @@
 
 <div align="center">
   
-<img width="593" height="605" alt="image" src="https://github.com/user-attachments/assets/285c9322-a557-458c-b980-11a0290dd552" />
-
-
 # Doula · 沉浸播放，让画面更出彩
 
 Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤、手势、消息和媒体工具。按自己的习惯调整界面与播放体验。
@@ -28,6 +25,8 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
 [![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.0-FF4757)](VALIDATION.md)
 [![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)[![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/icUpK4fip9vi)
+
+<img width="593" height="605" alt="image" src="https://github.com/user-attachments/assets/285c9322-a557-458c-b980-11a0290dd552" />
 
 [官方发行与下载](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) · [完整功能](FEATURES.md) · [更新日志](CHANGELOG.md) · [真实截图](GALLERY.md) · [反馈教程](BUG-REPORT.md)
 
