@@ -9,6 +9,8 @@
 <!-- readme-visuals:header:end -->
 
 <div align="center">
+  
+<img width="5530" height="6446" alt="image" src="https://github.com/user-attachments/assets/29103dcb-7022-40fe-99c4-43fa17bfff1c" />
 
 # Doula · 沉浸播放，让画面更出彩
 
