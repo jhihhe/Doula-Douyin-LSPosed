@@ -10,7 +10,8 @@
 
 <div align="center">
   
-<img width="5530" height="6446" alt="image" src="https://github.com/user-attachments/assets/29103dcb-7022-40fe-99c4-43fa17bfff1c" />
+<img width="593" height="605" alt="image" src="https://github.com/user-attachments/assets/285c9322-a557-458c-b980-11a0290dd552" />
+
 
 # Doula · 沉浸播放，让画面更出彩
 
