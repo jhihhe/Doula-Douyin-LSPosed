@@ -23,8 +23,8 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Android](https://img.shields.io/badge/Android-13%2B-3DDC84?logo=android&logoColor=white)](#安装与使用)
 [![Architecture](https://img.shields.io/badge/架构-ARM64-4682B4)](#安装与使用)
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
-[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.0-FF4757)](VALIDATION.md)
-[![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)[![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iKpMK4fooaoh)
+[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.1-FF4757)](VALIDATION.md)
+[![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)[![Lanzou](https://img.shields.io/badge/历史1.1.4-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iKpMK4fooaoh)
 
 [Telegram 交流群：@DOULA_LSPOSED](https://t.me/Doula_LSPosed)
 
@@ -34,16 +34,17 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-2026-11-12 同版修正：页面统一显示 1.1.4（2026111101）及实际编译时间，修复抖音版本号空白，设置页底部加入 Telegram 二维码。请下载新包覆盖安装并重启抖音。
+**Doula 1.1.5 正式版 · 2026111301 · 2026-11-13**
 
+编译时间：2026-11-13 08:39:35（北京时间）。
 
-**1.1.4 正式版：适配抖音 41.0.0，调整界面配色和个人主页底栏，加入恢复默认设置及 Telegram 群组入口。** 已在一台设备上验证部分功能；旧版本、其他机型和部分功能组合仍待回归。视频下载的历史证书错误场景尚未确认修复。
+本次加入抖音 41.1.0 适配、自动播快捷开关和个人主页底栏开关，精简侧栏隐藏列表，修复分享、图片保存和关注确认，调整发布时间彩虹及进度时间样式。与 1.1.4 的 12 组变化见 [更新日志](CHANGELOG.md)。
 
-[1.1.4 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+[下载 1.1.5 APK / ZIP](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111301-1.1.5) · [Telegram 下载话题](https://t.me/Doula_LSPosed/4) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-1.1.4 蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iKpMK4fooaoh)，密码：`girf`。解压后安装 APK；若 LSPosed 目录尚未刷新，也可使用发行页。
+需要 Android 13+、ARM64、现代 Xposed API 102。覆盖安装后完整重启抖音。适配代码保留 40.6–41.1 路径；一台设备上的部分功能已有实测，其他机型、旧宿主及部分功能组合仍待回归，详见 [验证范围](VALIDATION.md)。
 
-<!-- readme-visuals:overview:start -->
+旧蓝奏链接仍是 **1.1.4 修正版**，本轮 1.1.5 请使用上面的 GitHub 或 Telegram 附件，不把旧链接当成新包。
 
 ## 项目速览
 
