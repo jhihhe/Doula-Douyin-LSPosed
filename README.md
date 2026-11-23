@@ -23,7 +23,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Android](https://img.shields.io/badge/Android-13%2B-3DDC84?logo=android&logoColor=white)](#安装与使用)
 [![Architecture](https://img.shields.io/badge/架构-ARM64-4682B4)](#安装与使用)
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
-[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.1-FF4757)](VALIDATION.md)
+[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.2-FF4757)](VALIDATION.md)
 [![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)[![Lanzou](https://img.shields.io/badge/历史1.1.4-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iKpMK4fooaoh)
 
 [Telegram 交流群：@DOULA_LSPOSED](https://t.me/Doula_LSPosed)
@@ -34,17 +34,21 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-**Doula 1.1.5 正式版 · 2026111301 · 2026-11-13**
+**Doula 1.1.6 正式版 · 2026112340 · 2026-11-23**
 
-编译时间：2026-11-13 08:39:35（北京时间）。
+编译时间：2026-11-23 23:50:17（北京时间）。
 
-本次加入抖音 41.1.0 适配、自动播快捷开关和个人主页底栏开关，精简侧栏隐藏列表，修复分享、图片保存和关注确认，调整发布时间彩虹及进度时间样式。与 1.1.4 的 12 组变化见 [更新日志](CHANGELOG.md)。
+**建议把官方抖音更新到 41.2.0，这一版主要围绕 41.2 适配，使用它能获得更好的适配体验。** 旧版兼容路径仍保留，其他机型和部分场景还在继续复验。
 
-[下载 1.1.5 APK / ZIP](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111301-1.1.5) · [Telegram 下载话题](https://t.me/Doula_LSPosed/4) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+这次修正发布时间/发布地字体过紧、相关搜索黑底、分享工具行样式与重复项，补上41.2弹幕入口、收藏、拍摄、消息和表情等接口，并统一版本与构建信息。[口语版更新日志](CHANGELOG.md)
 
-需要 Android 13+、ARM64、现代 Xposed API 102。覆盖安装后完整重启抖音。适配代码保留 40.6–41.1 路径；一台设备上的部分功能已有实测，其他机型、旧宿主及部分功能组合仍待回归，详见 [验证范围](VALIDATION.md)。
+[下载 1.1.6 正式版 APK / ZIP](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112340-1.1.6) · [同代码测试版 1.1.6-preview.39](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112341-1.1.6-preview.39) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-旧蓝奏链接仍是 **1.1.4 修正版**，本轮 1.1.5 请使用上面的 GitHub 或 Telegram 附件，不把旧链接当成新包。
+正式版和测试版功能一致，只区分版本标识与发布通道。Telegram群只发正式版：[交流群 @Doula_LSPosed](https://t.me/Doula_LSPosed) · [下载话题](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
+
+需要 Android 13+、ARM64、现代 Xposed API 102。覆盖安装后完整重启抖音。本轮主要实测OPPO/抖音41.2，初始化及部分行为通过；消息、媒体、手势的部分完整对照和其他环境仍待验，详见[验证范围](VALIDATION.md)。
+
+旧蓝奏链接仍是 **1.1.4 修正版**，1.1.6请使用本页GitHub或Telegram附件。
 
 ## 项目速览
 
@@ -115,7 +119,7 @@ flowchart LR
 
 ## 安装与使用
 
-需要 Android 13 或更高版本、ARM64 设备，以及支持现代 Xposed API 102 的框架。适配路径包括官方抖音 40.6.0 / 400601、40.7.0 / 400701、40.8.0 / 400801、40.9.0 / 400901、41.0.0 和 41.1.0；不同版本的功能验证范围请查看 [验证记录](VALIDATION.md)。
+需要 Android 13 或更高版本、ARM64 设备，以及支持现代 Xposed API 102 的框架。适配路径包括官方抖音 40.6.0 / 400601、40.7.0 / 400701、40.8.0 / 400801、40.9.0 / 400901、41.0.0、41.1.0 和 41.2.0；不同版本的功能验证范围请查看 [验证记录](VALIDATION.md)。
 
 1. 使用支持现代 Xposed API 102 的框架；环境要求 Android 13+ / ARM64。
 2. 安装 Releases 中明确对应目标抖音版本的 APK。官方包名 `io.github.jhihhe.doula`，抖音目标包名 `com.ss.android.ugc.aweme`。
@@ -124,7 +128,7 @@ flowchart LR
 5. 菜单勾选的是要隐藏的项目，保存后按提示重启。不要清除抖音数据来解决普通加载问题。
 6. 无入口或不生效时，按 [反馈教程](BUG-REPORT.md) 提交具体版本、步骤与日志。桌面缓存维护不能修复框架不支持或作用域错误。
 
-本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；1.1.5 在 1.1.4 的 41.0.0 基础上新增 41.1.0 适配，部分功能已实测，其余功能及旧版回归仍在继续；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
+本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；1.1.6重点新增41.2.0适配，建议使用41.2.0；40.6–41.1路径仍保留，部分功能及旧版回归仍在继续；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
 
 
 ## 截图、验证与反馈

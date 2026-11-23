@@ -1,6 +1,6 @@
 {
-  "versionName": "1.1.5",
-  "versionCode": 2026111301,
+  "versionName": "1.1.6",
+  "versionCode": 2026112340,
   "channel": "stable",
-  "supportedHosts": "40.6.0–41.1.0"
+  "supportedHosts": "40.6.0–41.2.0"
 }
