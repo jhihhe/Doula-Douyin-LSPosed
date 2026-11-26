@@ -1,6 +1,6 @@
 # Doula 完整功能与配置
 
-2.0重点适配官方抖音41.3.0，建议使用41.3.0。新增、旧功能变化及修复的完整对照见[2.0清单](CHANGE-INVENTORY-2.0.md)。Android 13+ / ARM64 / 现代 Xposed API 102，实测范围见VALIDATION.md。
+2.0.1重点适配官方抖音41.3.0，建议使用41.3.0。新增、旧功能变化及修复的完整对照见[2.0清单](CHANGE-INVENTORY-2.0.md)。Android 13+ / ARM64 / 现代 Xposed API 102，实测范围见VALIDATION.md。
 
 正式版2.0与测试版2.0-preview.1来自同一份冻结源码，功能一致。Telegram下载话题仅提供正式版，测试版通过GitHub下载。
 
