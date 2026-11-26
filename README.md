@@ -34,25 +34,25 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-**Doula 2.0.1 正式版 · 2026112725 · 2026-11-26**
+**Doula 2.0.2 正式版 · 2026112729 · 2026-11-26**
 
-编译时间：2026-11-26 21:55:12（北京时间）。
+编译时间：2026-11-26 22:37:55（北京时间）。
 
-推荐使用本次发行附件的实测抖音41.3.0（versionCode 410300），不把所有渠道同名41.3都当成已适配。40.6–41.2兼容路径仍保留，旧版与其他机型不等于已完成本轮全量实测。
+本次补回“界面与控件 → 底部导航菜单 → 发布加号（＋）”，同时修复缓存列表绕过隐藏规则。已在当前手机验证勾选隐藏、重启后取消恢复，原设置保留。2.0.1的总开关读取修复、真实宿主版本/ClassLoader/匹配诊断一并保留。
 
-2.0.1修复总开关读取异常导致的启动中断，增加实际版本、ClassLoader和匹配失败诊断；多份用户日志中的40.6 fallback仍在排查，不宣称全部修好。实测宿主APK与本机安装包SHA256一致，随正式版附上，未修改第三方抖音包。
+推荐本次随附的实测抖音41.3.0（versionCode410300）；原包未修改，与本机安装包SHA256一致。其他渠道同名41.3构建仍待核验，用户日志中的40.6 fallback不宣称全部解决。40.6–41.2兼容路径保留，旧版及其他机型不等于本轮全量实测。
 
-2.0已撤下，完整更新内容随2.0.1一起提供：实时视频模糊填边、悬浮倍速、进度时间自定义和消息媒体工具等21组新增/扩展，以及19组旧功能变化/修复。[2.0.1完整更新日志（含2.0）](RELEASE-2.0.1.md) · [对比1.1.6的完整清单](CHANGE-INVENTORY-2.0.md)
+2.0已撤下，2.0.2发行说明完整带上其21组新增/扩展、19组旧功能变化/修复与未结案反馈：[完整日志（含2.0）](RELEASE-2.0.2.md) · [对比1.1.6清单](CHANGE-INVENTORY-2.0.md)。
 
-[下载2.0.1正式版及实测抖音APK](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112725-2.0.1) · [同代码测试版2.0.1-preview.1](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112726-2.0.1-preview.1) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+[下载2.0.2正式版及实测抖音APK](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112729-2.0.2) · [同代码测试版2.0.2-preview.1](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112730-2.0.2-preview.1) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-`Doula-2.0.1.apk`是模块；`Douyin-41.3.0-410300.apk`是本轮实测宿主。模块可覆盖安装，确认作用域后完整重启抖音。若宿主不能覆盖安装，先反馈提示，不要卸载或清数据。
+`Doula-2.0.2.apk`是模块；`Douyin-41.3.0-410300.apk`是实测宿主。覆盖安装后确认作用域并完整重启抖音。宿主不能覆盖时先反馈安装提示，不要卸载或清数据。
 
-正式版和测试版来自同一份冻结源码，功能一致，只区分版本、通道和构建信息。Telegram下载话题只发正式模块及本次实测宿主包：[交流群 @Doula_LSPosed](https://t.me/Doula_LSPosed) · [下载话题](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
+正式版和测试版来自同一冻结源码、功能一致，只区分版本、通道和构建信息。Telegram只发正式模块及实测宿主：[交流群](https://t.me/Doula_LSPosed) · [下载](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
 
-需要Android13+、ARM64、现代Xposed API102。若仍失效，冷启动后停留至少15秒，导出完整LSPosed日志并附抖音下载渠道；本次诊断前缀为`Doula HostDiag v1`。真实视频取帧、主体不变及部分播放/手势/消息路径有当前设备证据，其他范围见[验证记录](VALIDATION.md)。
+Android13+ / ARM64 / 现代Xposed API102。仍失效请冷启动停留至少15秒，导出完整LSPosed日志并附抖音下载渠道，搜索`Doula HostDiag v1`。其他验证边界见[记录](VALIDATION.md)。
 
-旧蓝奏链接仍是**1.1.4修正版**，新版本请用本页GitHub或Telegram正式附件。
+旧蓝奏链接仍为1.1.4修正版，新版请使用GitHub或Telegram正式附件。
 
 ## 项目速览
 
